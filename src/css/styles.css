@@ -1,0 +1,45 @@
+body {
+    background-color: #030303;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 22px;
+    color: white;
+}
+
+/* h1 {
+    color: red;
+} */
+
+
+.card { 
+    border: 1px solid #16181C;
+    margin: 55px;
+    text-align: center;
+    /* height: 20%; */
+}
+
+.image {
+    border: 1px solid #16181C;
+    border-radius: 100px;
+    margin: 25px;
+    width: 70%;
+    text-align: center;
+}
+
+.creet { 
+    padding: 35px;
+    color: white;
+    text-align: left;
+}
+
+h6 { 
+    color: #16181C;
+}
+
+.dp {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #16181C;
+
+}
