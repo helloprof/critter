@@ -1,9 +1,11 @@
 body {
-    background-color: #030303;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
-  Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 22px;
+    /* background-color: #030303; */
+    background-color: #15202B;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 22px;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 
 /* h1 {
@@ -11,15 +13,38 @@ body {
 } */
 
 
+.navbar {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    position: sticky;
+    width: 30%;
+    /* flex-wrap: wrap; */
+}
+
+.nav-link {
+    /* position: fixed; */
+    /* width: 100%; */
+    /* width: 10%; */
+    padding: 5%;
+    margin: 5%;
+    /* background-color: #15202B; */
+    color: white;
+    text-decoration: none;
+
+}
+
 .card { 
-    border: 1px solid #16181C;
+    /* border: 1px solid #16181C; */
+    border: 1px solid #38444D;
     margin: 55px;
     text-align: center;
     /* height: 20%; */
 }
 
 .image {
-    border: 1px solid #16181C;
+    /* border: 1px solid #16181C; */
+    border: 1px solid #38444D;
     border-radius: 100px;
     margin: 25px;
     width: 70%;
@@ -34,12 +59,13 @@ body {
 
 h6 { 
     color: #16181C;
+    color: #38444D;
 }
 
 .dp {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 1px solid #16181C;
-
+    /* border: 1px solid #16181C; */
+    border:#38444D;
 }
