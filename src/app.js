@@ -35,6 +35,7 @@ function displayTweets(critterID) {
 }
 
 function onLoad() {
+    console.log("loaded")
     generateTweetsButton()
 }
 
