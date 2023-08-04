@@ -2,6 +2,8 @@ window.tweets = [
   {
     id: 1,
     critterID: 1,
+    name: "racz",
+    username: "raccoon2012313",
     date: "",
     likes: 1,
     replies: 3,
@@ -13,6 +15,8 @@ window.tweets = [
   {
     id: 2,
     critterID: 1,
+    name: "racz",
+    username: "raccoon2012313",
     date: "",
     likes: 1,
     replies: 3,
