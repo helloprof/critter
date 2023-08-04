@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script src="https://kit.fontawesome.com/efeb3f9255.js" crossorigin="anonymous"></script>
-    <title>critter</title>
-  </head>
 
-  <body>
-    <nav class="navbar">
-      <!-- <a href="/">Home</a>&nbsp;>&nbsp; <a href="/about">About</a>&nbsp;>&nbsp;
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="https://kit.fontawesome.com/efeb3f9255.js" crossorigin="anonymous"></script>
+  <title>critter</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <!-- <a href="/">Home</a>&nbsp;>&nbsp; <a href="/about">About</a>&nbsp;>&nbsp;
       <a href="/honesty">Honesty</a> -->
-      <a href="/" class="nav-link"><i class="fa-solid fa-house-user">&nbsp&nbsp</i>Home</a>
-      <a href="about.html" class="nav-link"><i class="fa-solid fa-magnifying-glass">&nbsp&nbsp</i>Explore</a>
-      <a href="about.html" class="nav-link"><i class="fa-solid fa-bell">&nbsp&nbsp</i>Notifications</a>
-      <a href="about.html" class="nav-link"><i class="fa-solid fa-envelope">&nbsp&nbsp</i>Messages</a>
-      <a href="about.html" class="nav-link"><i class="fa-solid fa-book">&nbsp&nbsp</i>References</a>
-      <a href="about.html" class="nav-link"><i class="fa-solid fa-circle-info">&nbsp&nbsp</i>About Us</a>
-      <a href="about.html" class="nav-link"><i class="fa-solid fa-user">&nbsp&nbsp</i>Profile</a>
-      <button class="tweet-button"><img class="logo" src="/images/logo3.png">tweet</button>
-    </nav>
-    <div>
+    <a href="/" class="nav-link"><i class="fa-solid fa-house-user">&nbsp&nbsp</i>Home</a>
+    <a href="about.html" class="nav-link"><i class="fa-solid fa-magnifying-glass">&nbsp&nbsp</i>Explore</a>
+    <a href="about.html" class="nav-link"><i class="fa-solid fa-bell">&nbsp&nbsp</i>Notifications</a>
+    <a href="about.html" class="nav-link"><i class="fa-solid fa-envelope">&nbsp&nbsp</i>Messages</a>
+    <a href="about.html" class="nav-link"><i class="fa-solid fa-book">&nbsp&nbsp</i>References</a>
+    <a href="about.html" class="nav-link"><i class="fa-solid fa-circle-info">&nbsp&nbsp</i>About Us</a>
+    <a href="about.html" class="nav-link"><i class="fa-solid fa-user">&nbsp&nbsp</i>Profile</a>
+    <button class="tweet-button"><img class="logo" src="/images/logo3.png">tweet</button>
+  </nav>
+  <!-- <div> -->
 
-    <!-- <h1>critter.com</h1>
+  <!-- <h1>critter.com</h1>
     <time>10:00</time> -->
 
-    <!-- <div class="card">
-      <div class="creet">
+  <!-- <div class="card">
+      <div class="cardHeader">
+        <h5>Raccoon #1123112</h5>
+        <h6>@RaccAtacc</h6>
+        <p>saw this raccoon modelling!</p>
+      </div>
+      <img
+        src="https://images.unsplash.com/photo-1622559650168-61fa8ee44bf4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
+        class="image"
+      />
+    </div> -->
+  <!-- <div class="card">
+      <div class="tweet">
         <span>
           <h5>Raccoon #1123112</h5>
           <h6>@RaccAtacc</h6>
@@ -40,30 +52,31 @@
         class="image"
       />
     </div> -->
-    <!-- <div class="card">
-      <div class="creet">
-        <span>
-          <h5>Raccoon #1123112</h5>
-          <h6>@RaccAtacc</h6>
-        </span>
-        <p>saw this raccoon modelling!</p>
-      </div>
-      <img
-        src="https://images.unsplash.com/photo-1622559650168-61fa8ee44bf4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
-        class="image"
-      />
-    </div> -->
+
+  <form class="post" id="post">
+    <label for="name">Name</label>
+    <input class="post" type="text" id="name" name="name"><br>
+    <label for="username">Username</label>
+    <input class="post" type="text" id="username" name="username"><br>
+    <label for="image">ImageURL</label>
+    <input class="post" type="text" id="image" name="image"><br>
+    <textarea class="post" id="postContent" name="w3review" rows="4" cols="50"
+      placeholder="What's happening??"></textarea>
+    <!-- <input type="submit" value="tweet" class="tweet-button"> -->
+    <button class="tweet-button" type="submit"><img class="logo" src="/images/logo3.png"></button>
+  </form>
   <div class="cards" id="mainPage">
     <!-- content here -->
   </div>
   <div class="explore">
     <div class="trends">
-      sldkfjsdlk
+      menu here WIP
     </div>
   </div>
 
   <script src="critters.js"></script>
   <script src="tweets.js"></script>
   <script src="app.js"></script>
-  </body>
+</body>
+
 </html>
